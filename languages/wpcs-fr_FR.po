@@ -1,0 +1,117 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Clients Space\n"
+"POT-Creation-Date: 2012-10-23 14:42+0100\n"
+"PO-Revision-Date: 2012-10-23 14:45+0100\n"
+"Last-Translator: Pierre <pierre@greenpig.be>\n"
+"Language-Team: Greenpig <info@greenpig.be>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x/n;esc_attr__;"
+"esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Poedit-SearchPath-0: D:\\xampp\\htdocs\\boone-devinck.be\\wp-content"
+"\\plugins\\wp-clients-space\n"
+
+#: wpcs-actions.php:6
+#: wpcs-actions.php:17
+msgid "Clients space"
+msgstr "Espace clients"
+
+#: wpcs-actions.php:7
+msgid "Client space"
+msgstr "Espace client"
+
+#: wpcs-actions.php:8
+msgid "Add customer"
+msgstr "Ajouter un client"
+
+#: wpcs-actions.php:9
+msgid "Add new customer"
+msgstr "Ajouter un nouveau client"
+
+#: wpcs-actions.php:10
+msgid "Edit customer"
+msgstr "Modifier un client"
+
+#: wpcs-actions.php:11
+msgid "New customer"
+msgstr "Nouveau client"
+
+#: wpcs-actions.php:12
+msgid "View customer"
+msgstr "Voir le client"
+
+#: wpcs-actions.php:13
+msgid "Search customer"
+msgstr "Chercher un client"
+
+#: wpcs-actions.php:14
+msgid "No customer"
+msgstr "Aucun client"
+
+#: wpcs-actions.php:15
+msgid "No customer in trash"
+msgstr "Aucun client dans la corbeille"
+
+#: wpcs-actions.php:34
+msgid "Customer login informations"
+msgstr "Informations de connexion du client"
+
+#: wpcs-actions.php:44
+msgid "Customer email"
+msgstr "Email du client"
+
+#: wpcs-actions.php:50
+msgid "Customer password"
+msgstr "Mot de passe du client"
+
+#: wpcs-widget.php:20
+msgid "Incorrect email or password."
+msgstr "Email ou mot de passe incorrect."
+
+#: wpcs-widget.php:51
+msgid "Email"
+msgstr "Adresse de contact"
+
+#: wpcs-widget.php:57
+msgid "Password"
+msgstr "Mot de passe"
+
+#: wpcs-widget.php:64
+msgid "Log In"
+msgstr "Se connecter"
+
+#: wpcs-widget.php:76
+msgid "Widget to show a login form for your customers in your sidebar."
+msgstr "Afficher un formulaire de connexion pour vos clients dans la sidebar"
+
+#: wpcs-widget.php:78
+msgid "WP Clients Space"
+msgstr "WP Espace Clients"
+
+#: wpcs-widget.php:87
+msgid "Customer Area"
+msgstr "Espace client"
+
+#: wpcs-widget.php:90
+msgid "Your customer area"
+msgstr "Votre espace client"
+
+#: wpcs-widget.php:91
+msgid "Log Out"
+msgstr "Se déconnecter"
+
+#: wpcs-widget.php:110
+msgid "Show on front page"
+msgstr "Afficher sur la première page"
+
+#~ msgid "Your client space"
+#~ msgstr "Votre espace client"
+
+#~ msgid "Title"
+#~ msgstr "Titre"
