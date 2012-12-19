@@ -14,7 +14,7 @@ function wpcs_manage_connection() {
         // CONNECTION
         if (isset($_POST['action']) && $_POST['action'] == 'wpcs_connection') {
             $post_id_from_email = $wpdb->get_row($wpdb->prepare("SELECT post_id FROM " . $wpdb->prefix . "postmeta WHERE meta_key = '_emailclient' AND meta_value = %s", $_POST['wpcs_email']))->post_id;
-            $post_id_from_password = $wpdb->get_row($wpdb->prepare("SELECT post_id FROM " . $wpdb->prefix . "postmeta WHERE meta_key = '_motsdepasse' AND meta_value = %s", $_POST['wpcs_password']))->post_id;
+            $post_id_from_password = $wpdb->get_row($wpdb->prepare("SELECT post_id FROM " . $wpdb->prefix . "postmeta WHERE post_id = '%d' AND meta_key = '_motsdepasse' AND meta_value = %s", $post_id_from_email, $_POST['wpcs_password']))->post_id;
             if (!empty($post_id_from_email) && $post_id_from_email == $post_id_from_password) {
                 $_SESSION['wpcs'] = get_page($post_id_from_email);
                 header("Location: " . get_permalink($_SESSION['wpcs']->ID));
